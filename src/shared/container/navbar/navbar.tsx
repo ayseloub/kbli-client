@@ -20,7 +20,8 @@ export default function navbar() {
         </section>
         <section>
             <button 
-                className='bg-kbli-secondary text-white font-semibold hover:opacity-90 px-4 py-2 rounded-lg'>
+                className='bg-kbli-secondary text-white font-semibold hover:opacity-90 px-4 py-2 rounded-lg'
+                onClick={() => window.location.href = "/chat"}>
                 Mulai Chat
             </button>
         </section>

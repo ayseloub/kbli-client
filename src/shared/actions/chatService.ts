@@ -6,7 +6,7 @@ import {
     type IChatResult,
 } from '@/shared/models/interface/chatinterface';
 
-const BASE_URL = process.env.BASE_API_URL;
+const BASE_URL = process.env.BASE_API_URL || 'https://api.kblichatbot.my.id/api';
 
 export async function sendChatMessage(
     chatRequest: IChatRequest
